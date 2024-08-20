@@ -1,0 +1,192 @@
+.app-container {
+  background-image: linear-gradient(#ffffff, #cffcf1);
+  padding: 30px;
+}
+.heading {
+  font-family: 'Roboto';
+  font-weight: bold;
+  color: #1e293b;
+  font-size: 20px;
+}
+.time-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+  background-position: center;
+  background-size: cover;
+  height: 250px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.time-state-text {
+  margin: 0px;
+  padding: 0px;
+}
+.time {
+  margin: 0px;
+  padding: 0px;
+}
+.button {
+  border: none;
+  background-color: transparent;
+  width: 40px;
+  height: 40px;
+}
+.btn-image {
+  width: 30px;
+  height: 30px;
+}
+.start-or-pause-text {
+  font-family: 'Roboto';
+  font-weight: bold;
+  color: #1e293b;
+  font-size: 15px;
+}
+.reset {
+  font-family: 'Roboto';
+  font-weight: bold;
+  color: #1e293b;
+  font-size: 15px;
+}
+.btn-container {
+  display: flex;
+}
+.start-reset-btn-container {
+  display: flex;
+  justify-content: space-around;
+}
+.timer-limit-text {
+  font-family: 'Roboto';
+  font-weight: bold;
+  color: #1e293b;
+  font-size: 17px;
+  text-align: center;
+}
+.buttons-container {
+  width: 100%;
+}
+.increase-decrease-container {
+  display: flex;
+  justify-content: center;
+}
+.decrese-btn {
+  width: 50px;
+  height: 50px;
+  font-size: 40px;
+}
+.decrese-btn {
+  width: 50px;
+  height: 50px;
+  font-size: 40px;
+  border: none;
+  background-color: transparent;
+}
+.increase-btn {
+  width: 50px;
+  height: 50px;
+  font-size: 40px;
+  border: none;
+  background-color: transparent;
+}
+.timeLimit {
+  height: 50px;
+  width: 80px;
+  margin: 0px;
+  background-color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+.increase-decrease-container {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .app-container {
+    padding: 50px;
+  }
+  .heading {
+    font-size: 30px;
+  }
+  .time-container {
+    height: 350px;
+    width: 80%;
+  }
+  .container {
+    height: 150px;
+    width: 150px;
+    border-radius: 75px;
+  }
+  .button {
+    width: 50px;
+    height: 50px;
+  }
+  .btn-image {
+    width: 50px;
+    height: 50px;
+  }
+  .start-or-pause-text {
+    font-size: 20px;
+  }
+  .reset {
+    font-size: 20px;
+  }
+  .btn-container {
+    display: flex;
+  }
+  .start-reset-btn-container {
+    display: flex;
+    justify-content: space-around;
+  }
+  .timer-limit-text {
+    font-size: 20px;
+  }
+  .buttons-container {
+    width: 100%;
+  }
+  .increase-decrease-container {
+    display: flex;
+    justify-content: center;
+  }
+  .decrese-btn {
+    width: 50px;
+    height: 50px;
+    font-size: 50px;
+    border: none;
+    background-color: transparent;
+  }
+  .increase-btn {
+    width: 50px;
+    height: 50px;
+    font-size: 50px;
+  }
+  .timeLimit {
+    height: 50px;
+    width: 100px;
+    border-radius: 10px;
+    font-size: 20px;
+    color: white;
+  }
+  .increase-decrease-container {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+  .time-and-buttons-container {
+    display: flex;
+    align-items: center;
+  }
+}
